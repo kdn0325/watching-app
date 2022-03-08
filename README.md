@@ -5,4 +5,5 @@
 ## --> [Link](https://abelwatching.netlify.app)
 
 ### Initial Screen
-<img width="1678" alt="Blog-app" src="https://user-images.githubusercontent.com/91298955/152676245-dbc74f99-7143-4e92-9803-a9bae5b51b4a.png">
+<img width="1680" alt="watching2" src="https://user-images.githubusercontent.com/91298955/157289715-3e52f8ba-98d6-4595-97ab-85add6f2e6b4.png">
+<img width="1665" alt="watching" src="https://user-images.githubusercontent.com/91298955/157289751-6a999366-0615-4e3c-83b0-7a6587ac4b93.png">
