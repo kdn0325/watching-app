@@ -10,10 +10,11 @@ import { useEffect } from 'react';
 
 const MovieList = props => {
     const [items,setItems]=useState([]);
-    const params = {};
+
     useEffect(()=>{
         const getList = async ()=>{
             let response = null;
+            const params = {};
             if(props.type!=="similar"){
                 switch(props.category){
                     case category.movie:response  = await tmdbApi.getMoviesList(props.type,{params});
@@ -27,7 +28,7 @@ const MovieList = props => {
             setItems(response.results);
         }
         getList();
-    },[]);
+    },[props.category,props.id,props.type]);
     return (
         <div className="movie-list">
             <Swiper grabCursor={true} spaceBetween={10} slidesPerView={'auto'}>
