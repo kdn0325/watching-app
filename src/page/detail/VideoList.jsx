@@ -2,7 +2,7 @@ import React from 'react';
 import { useRef } from 'react';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import tmdbApi from '../../api/tmdbApi';
 
 const VideoList = (props) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import "./detail.scss";
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import apiConfig from '../../api/apiConfig';
 import tmdbApi from '../../api/tmdbApi';
 import CastList from './CastList';
