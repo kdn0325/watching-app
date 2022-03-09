@@ -9,15 +9,15 @@ import Router from './config/Router';
 
 const App = () => {
   return (
-    <BrowserRouter>
-        <Route render={props=>(
-        <>
-            <Header {...props}/>
-            <Router/>
-            <Footer/>
-        </>
-        )}/>
-    </BrowserRouter>
+    	<BrowserRouter>
+			<Route render={props=>(
+				<>
+					<Header {...props}/>
+					<Router/>
+					<Footer/>
+				</>
+			)}/>
+    	</BrowserRouter>
   );
 };
 
