@@ -1,4 +1,3 @@
-import React from 'react';
 import "./moviecard.scss";
 import { category } from '../../api/tmdbApi';
 import apiConfig from '../../api/apiConfig';
@@ -14,7 +13,7 @@ const MovieCard = (props) => {
         <Link to={link}>
             <div className="movie-card" style={{backgroundImage:`url(${bg})`}}>
                 <Button>
-                    <i className="bx bx-play"></i>
+                    <i class="fa-solid fa-circle-play"></i>
                 </Button>
             </div>
             <h3>{item.title||item.name}</h3>

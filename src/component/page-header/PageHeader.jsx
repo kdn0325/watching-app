@@ -1,4 +1,3 @@
-import React from 'react';
 import "./pageheader.scss";
 import bg from "../../assets/footer-bg.jpg";
 

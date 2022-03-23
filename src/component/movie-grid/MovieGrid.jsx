@@ -1,4 +1,3 @@
-import React from 'react';
 import "./moviegrid.scss"
 import MovieCard from "../movie-card/MovieCard";
 import { useEffect } from 'react';

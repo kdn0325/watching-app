@@ -1,4 +1,3 @@
-import React from 'react';
 import tmdbApi,{category,movieType} from "../../api/tmdbApi";
 import apiConfig from '../../api/apiConfig';
 import SwiperCore,{Autoplay} from "swiper";

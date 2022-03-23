@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { OutlineButton } from '../component/button/Button';
 import HeroSlide from '../component/hero-slide/HeroSlide';

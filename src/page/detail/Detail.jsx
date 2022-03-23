@@ -1,4 +1,3 @@
-import React from 'react';
 import "./detail.scss";
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';

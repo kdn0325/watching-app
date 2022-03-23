@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router';
 import PageHeader from "../component/page-header/PageHeader";
 import {category as cate} from "../api/tmdbApi"
