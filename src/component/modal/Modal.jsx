@@ -33,7 +33,7 @@ export const ModalContent = props =>{
         <div className="modal_content" ref={contentRef}>
             {props.children}
             <div className="modal_content_close" onClick={closeModal}>
-                <i className="bx bx-x"></i>
+                <img src={require(`../../assets/bx-x.svg`).default}/>
             </div>
         </div>
     )
