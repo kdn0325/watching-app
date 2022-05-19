@@ -7,6 +7,8 @@
 
 ## --> [Link](https://abelwatching.netlify.app)
 
+## [![Repository Card](https://widget.realdeveloper.pro/api/card?user=kdn0325&repo=watching-app)](https://github.com/kdn0325/watching-app')
+
 ### Initial Screen
 <img width="1680" alt="watching2" src="https://user-images.githubusercontent.com/91298955/157290141-5fc2ff98-b40a-4fbe-abd9-1b5b4b8c352f.png">
 
