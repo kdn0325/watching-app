@@ -5,6 +5,8 @@
 - SCSS로 스타일을 전역적으로 사용하여 컴포넌트 사용를 하면서 공통 스타일을 주어 스타일 재사용성의 효율성을 익혔습니다.
 - React Router Dom v5버전과 업데이트된 v6 차이를 학습하였습니다.
 
+##
+
 <details>
 <summary><span style="color:red">&#9658;코드 리뷰 보기</span></summary>
 <div markdown="1">       
@@ -15,6 +17,8 @@ The Movie open API를 사용하여 만든 프로젝트 입니다.
 
 </div>
 </details>
+
+##
 
 ## --> [Link](https://abelwatching.netlify.app)
 
