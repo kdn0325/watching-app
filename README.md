@@ -1,4 +1,4 @@
-# Watching-App for Desktop & mobile
+# Watching-App for Desktop & Mobile
 
 - React를 사용한 첫 프로젝트이며 , TMDB API를 활용한 영화 정보 서비스입니다.
 - Axios,Router,SPA(Single Page Application),Component 분리 등 React를 사용하는 이유(최소 렌더링)를 학습했습니다.
@@ -8,7 +8,7 @@
 ##
 
 <details>
-<summary><span style="color:red">&#9658;코드 리뷰 보기</span></summary>
+<summary><span style="color:red">&#128293; 클릭 하시면 느낀점 리뷰를 보실 수 있습니다. &#128591;</span></summary>
 <div markdown="1">       
   
 The Movie open API를 사용하여 만든 프로젝트 입니다.
