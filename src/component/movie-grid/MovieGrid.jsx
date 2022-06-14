@@ -76,7 +76,7 @@ const MovieGrid = (props) => {
             {
                 page<totalPage ? (
                     <div className="movie-grid_loadmore">
-                        <OutlineButton className="small" onClick = {loadMore}>Load More</OutlineButton>
+                        <OutlineButton className="small" onClick = {loadMore}>더보기</OutlineButton>
                     </div>
                 ) : null
             }
@@ -111,11 +111,11 @@ const MovieSearch = (props) =>{
         <div className="movie-search">
             <Input 
                 type="text" 
-                placeholder ="Enter keyword" 
+                placeholder ="키워드를 입력하세요" 
                 value={keyword} 
                 onChange={(e)=>setKeyword(e.target.value)}
             />
-            <Button className="small" onClick={goToSearch}>Search</Button>
+            <Button className="small" onClick={goToSearch}>검색하기</Button>
         </div>
     )
 }

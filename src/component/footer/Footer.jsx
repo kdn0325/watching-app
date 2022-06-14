@@ -14,21 +14,21 @@ const Footer = () => {
             </div>
             <div className="footer_content_menus">
                 <div className="footer_content_menu">
-                    <Link to="/">Home</Link>
-                    <Link to="/">Contact us</Link>
-                    <Link to="/">Term of services</Link>
-                    <Link to="/">About us</Link>
+                    <Link to="/">홈</Link>
+                    <Link to="/">문의하기</Link>
+                    <Link to="/">서비스 소개</Link>
+                    <Link to="/">입사 정보</Link>
                 </div>
                 <div className="footer_content_menu">
-                    <Link to="/">Live</Link>
+                    <Link to="/">실시간</Link>
                     <Link to="/">FAQ</Link>
-                    <Link to="/">Premium</Link>
-                    <Link to="/">Pravacy policy</Link>
+                    <Link to="/">프리미엄</Link>
+                    <Link to="/">법적 고지</Link>
                 </div>
                 <div className="footer_content_menu">
-                    <Link to="/">Your must watch</Link>
-                    <Link to="/">Recent release</Link>
-                    <Link to="/">Top IMDB</Link>
+                    <Link to="/">Watching 소개</Link>
+                    <Link to="/">현재 상영중</Link>
+                    <Link to="/">오직 Watching에서</Link>
                 </div>
             </div>
         </div>

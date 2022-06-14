@@ -20,15 +20,15 @@ export const tvType ={
 const tmdbApi = {
     getMoviesList:(type,params)=>{
         const url = "movie/" + movieType[type];
-        return axiosClient.get(url,params)
+        return axiosClient.get(url,{params:{language: "ko-KR"}})
     },
     getTvList:(type,params)=>{
         const url = "tv/" + tvType[type];
-        return axiosClient.get(url,params)
+        return axiosClient.get(url,{params:{language: "ko-KR"}})
     },
     getVideo:(cate,id)=>{
         const url = category[cate] +"/"+ id + "/videos";
-        return axiosClient.get(url,{params:{}});
+        return axiosClient.get(url,{params:{language: "ko-KR"}});
     },
     search:(cate,params)=>{
         const url = "search/"+ category[cate];
@@ -36,15 +36,15 @@ const tmdbApi = {
     },
     detail:(cate,id,params)=>{
         const url = category[cate] + "/" + id;
-        return axiosClient.get(url,params);
+        return axiosClient.get(url,{params:{language: "ko-KR"}});
     },
     creadits:(cate,id)=>{
         const url = category[cate] + "/" + id + "/credits";
-        return axiosClient.get(url,{params:{}});
+        return axiosClient.get(url,{params:{language: "ko-KR"}});
     },
     similar:(cate,id)=>{
         const url = category[cate] + "/" + id + "/similar";
-        return axiosClient.get(url,{params:{}});
+        return axiosClient.get(url,{params:{language: "ko-KR"}});
     },
 }
 

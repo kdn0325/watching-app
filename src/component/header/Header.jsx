@@ -6,15 +6,15 @@ import { useEffect } from 'react';
 
 const headerNav = [
     {
-        display:"Home",
+        display:"홈",
         path:"/"
     },
     {
-        display:"Movies",
+        display:"영화",
         path:"/movie"
     },
     {
-        display:"TV Series",
+        display:"TV",
         path:"/tv"
     },
 ];

@@ -59,7 +59,7 @@ const Detail = () => {
                             </div>
                             <div className="section mb-3">
                                 <div className="section_header mb-2">
-                                    <h2>Similar</h2>
+                                    <h2>추천 영화 / 프로그램</h2>
                                 </div>
                                 <MovieList category={category} type="similar" id ={item.id}/>
                             </div>
