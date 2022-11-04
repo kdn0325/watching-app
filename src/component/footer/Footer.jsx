@@ -1,11 +1,10 @@
 import "./footer.scss";
 import { Link } from 'react-router-dom';
-import bg from "../../assets/footer-bg.jpg";
 import logo from "../../assets/watching.png";
 
 const Footer = () => {
     return (
-        <div className="footer" style={{backgroundImage: `url(${bg})`}}>
+        <div className="footer">
             <div className="footer_content container">
             <div className="logo">
                     <img src={logo} alt="" />
